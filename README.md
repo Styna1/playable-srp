@@ -1,2 +1,1 @@
-# playable-srp
-solely for a issue tracker
+# Playable SRP Issue Tracker
