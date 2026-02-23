@@ -8,9 +8,9 @@ RecipeManager.replaceIngredient(crafting, 'immersiveengineering:material:22', 'h
 
 def exclusions = [
     'wirecoil',
+    'metal_device1:13'
 ]
 
-hideByModJei('immersiveengineering', exclusions)
 RecipeManager.removeByMod(crafting, 'immersiveengineering', exclusions)
 mods.immersiveengineering.alloy_kiln.removeAll()
 mods.immersiveengineering.blast_furnace.removeAll()

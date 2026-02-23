@@ -33,7 +33,7 @@ class RecipeManager {
 
                 def itemName = output.getItem().getRegistryName().getPath()
                 def meta = output.getMetadata()
-                def itemWithMeta = "${itemName}:${meta}"
+                def itemWithMeta = itemName + ':' + meta
 
                 if (!(itemName in exclusions) && !(itemWithMeta in exclusions)) {
                     crafting.remove(recipeName.toString())

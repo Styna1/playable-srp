@@ -4,6 +4,9 @@ def inscriber = mods.appliedenergistics2.inscriber
 inscriber.removeByOutput(item('appliedenergistics2:material:22'))
 inscriber.removeByOutput(item('appliedenergistics2:material:23'))
 inscriber.removeByOutput(item('appliedenergistics2:material:24'))
+crafting.removeByOutput(item('appliedenergistics2:controller'))
+crafting.removeByOutput(item('appliedenergistics2:energy_acceptor'))
+
 // Logic
 inscriber.recipeBuilder()
     .input(item('srparasites:lurecomponent1'))
