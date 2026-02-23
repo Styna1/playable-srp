@@ -1,0 +1,12 @@
+{
+  "individual": {
+    "advancedrocketry:dataunit": 0.1,
+    "advancedrocketry:fueltank": 0.2,
+    "advancedrocketry:satellitepowersource": 0.1,
+    "fluid.rocketFuel": 0.001,
+    "advancedrocketry:advrocketmotor": 2.0,
+    "advancedrocketry:satellite": 0.1,
+    "advancedrocketry:loader": 5.0,
+    "libvulpes:battery": 0.1
+  }
+}
