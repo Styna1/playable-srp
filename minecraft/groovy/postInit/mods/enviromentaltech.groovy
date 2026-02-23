@@ -5,7 +5,6 @@ def recipes = [
     'environmentaltech:void_ore_miner_cont_6',
     'environmentaltech:void_ore_miner_cont_5',
     'environmentaltech:void_ore_miner_cont_4',
-    'environmentaltech:void_res_miner_cont_6',
     'environmentaltech:void_res_miner_cont_5',
     'environmentaltech:void_res_miner_cont_4',
     'environmentaltech:void_botanic_miner_cont_6',
