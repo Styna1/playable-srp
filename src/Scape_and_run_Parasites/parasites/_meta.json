@@ -1,50 +1,50 @@
 {
     "inborn": {
-        "name": "Inborn Parasites"
+        "name": "Inborn"
     },
     "assimilated": {
-        "name": "Assimilated Parasites"
+        "name": "Assimilated"
     },
     "hijacked": {
-        "name": "Hijacked Parasites"
+        "name": "Hijacked"
     },
     "assimara": {
-        "name": "Assimara Parasites"
+        "name": "Assimara"
     },
     "feral": {
-        "name": "Feral Parasites"
+        "name": "Feral"
     },
     "crude": {
-        "name": "Crude Parasites"
+        "name": "Crude"
     },
     "abominations": {
         "name": "Abominations"
     },
     "primitive": {
-        "name": "Primitive Parasites"
+        "name": "Primitive"
     },
     "adapted": {
-        "name": "Adapted Parasites"
+        "name": "Adapted"
     },
     "nexus": {
-        "name": "Nexus Parasites"
+        "name": "Nexus"
     },
     "deterrent": {
-        "name": "Deterrent Parasites"
+        "name": "Deterrent"
     },
     "pure": {
-        "name": "Pure Parasites"
+        "name": "Pure"
     },
     "preeminent": {
-        "name": "Preeminent Parasites"
+        "name": "Preeminent"
     },
     "anicent": {
-        "name": "Ancient Parasites"
+        "name": "Ancient"
     },
     "derived": {
-        "name": "Derived Parasites"
+        "name": "Derived"
     },
     "untiered": {
-        "name": "Untiered Parasites"
+        "name": "Untiered"
     }
 }
