@@ -10,7 +10,9 @@
 
 ## Scripts
 * Reenabled T6 Void Resource Miner
-* Change warp core recipe
+* Disable warp core recipe -- will have a proper recipe later on.
+* Disable the nuclear rocket engine -- Read above.
+* Removed HEI.groovy -- see below: JEI Config
 
 ## Configs
 
