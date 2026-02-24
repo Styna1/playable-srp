@@ -1,4 +1,4 @@
-# Playable SRP
+# Playable SRP Docs
 ---
 
-head over to the [Issue Tracker](https://github.com/Styna1/playable-srp/issues) to report issues.
+this branch is solely for the docs, result is @ https://moddedmc.wiki/en/project/playable-srp/latest
