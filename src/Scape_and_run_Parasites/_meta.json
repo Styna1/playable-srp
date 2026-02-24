@@ -2,6 +2,9 @@
     "about.mdx": {
         "name": "About"
     },
+    "faq.mdx": {
+        "name": "FAQ"
+    },
     "systems": {
         "name": "Systems"
     },
