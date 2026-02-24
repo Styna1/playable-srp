@@ -1,0 +1,61 @@
+---
+title: Scent System
+hide_meta: true
+---
+
+## Overview
+---
+Scents essentially function as a smart spawn/invasion system. When killing a mob from Evolution Phase 5 and onward, 
+there is a chance that it will create an invisible Scent entity. A scent can be manually summoned when using a Carcass in survival mode, 
+with a specific level based on the current evolution phase or by Heeds can also directly summon low level Scents.
+
+Scent entities are invisible, intangible, and can only be killed manually via commands. Scent entities have a default cap of 3 within the world and need to be a minimum distance of 40 blocks apart.
+
+Scent entities serve as a brain to the Scent System. When parasites die nearby the Scent will respond by attempting to teleport nearby parasites to the attacker's location, 
+if there are not enough parasites the Scent will summon Worms to spawn the parasites from a list, depending on the Scent's level. Killing parasites will add Danger Points, 
+Reaction Points, and increase the Scent's lifespan. Danger Points increase a Scent's level. Reaction Points determine when a Scent will teleport and summon parasites. 
+
+## Tips
+---
+Tips
+
+    * To avoid an infinite feedback loop of Scent attacks, it may be best to lay low and not kill any parasites until a Scent dissipates.
+        * This does not work if a Heed is present, since Heeds spawn Scents they must be killed in order to stop a Scent attack.
+
+## Functioning
+---
+
+The Scent System works with three types of variables: Tasks, Values, and Modes.
+
+**Values**
+
+    * Danger Value: This will go up when a parasite dies within range and as this goes up, the Scent's level will increase. If Evolution Phases is on, each time a scent is placed it will have a bonus per phase. Some parasites can increase this value faster when they die.
+    * Reaction Value: This will also go up when a parasite dies within range, and this will trigger the placement of waves.
+
+**Tasks**
+
+    * Task A: The scent will check the reaction value until it reaches a threshold. If that threshold is met, it will go into Tactical Mode (This will reset the reaction value).
+    * Task B: If a non-parasite mob is within range, the reaction value will increase.
+    * Task C: The scent will check the reaction value until it reaches a threshold. If that threshold is met, it will go into Attacker Mode (This will lower the reaction value). If the current target is alive, the reaction value will increase (it will decrease if its dead). If reaction value reaches 0, the scent will go into Observer Mode.
+    * Task D: The Scent will try to relocate nearby parasites if avaiable. If there are not enough parasites that can be relocated, it goes into Builder Mode. After this is done, this will go into Tactical Mode.
+    * Task E: The scent will try to spawn other scents within a range of its intended target. Spawned scents will be in Aggressive Mode.
+    * Task F: This will spawn mobs from a list and then this will be set to dead.
+
+**Modes**
+
+    * Listener Mode: Will only work Task A
+    * Observer Mode: Will work Task A, B
+    * Tactical Mode: Will work Task C
+    * Attacker Mode: Will work Task D
+    * Builder Mode: Will work Task E
+    * Aggressive Mode: Will work Task F
+
+## Summary
+---
+
+As parasite mobs die, this will trigger scent within range and increase Danger value and Reaction value. 
+Danger value can depends on the mobs that are killed and the evolution phase. This value will change the mobs that will be spawned by scent. 
+Reaction value is used as a trigger for the whole system. If reaction value is high enough, the scent will go in tactical mode, 
+basically waiting for the Reaction value to go higher. When it does, it will trigger the Attacker mode. The scent will check if there are parasites mobs available to relocate, 
+the scent will relocate those parasites. If there are not enough parasites that can be relocated, it goes into Builder mode, 
+that will basically artificially spawn parasites (by spawning scents in aggressive mode, the mode that spawn parasites). 

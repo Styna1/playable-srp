@@ -1,0 +1,11 @@
+{
+    "phases.mdx": {
+        "name": "Evolution Phases"
+    },
+    "scent.mdx": {
+        "name": "Scent System"
+    },
+    "ubiquitous.mdx": {
+        "name": "Ubiquitous Development"
+    }
+}

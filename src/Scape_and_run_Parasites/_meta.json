@@ -1,6 +1,5 @@
 {
-    "phases.mdx": {
-        "name": "Evolution Phases",
-        "icon": "BookMarked"
+    "systems": {
+        "name": "Systems"
     }
 }
