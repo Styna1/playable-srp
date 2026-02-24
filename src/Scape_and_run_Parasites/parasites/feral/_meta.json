@@ -1,0 +1,33 @@
+﻿{
+    "index.mdx": {
+        "name": "Feral parasites"
+    },
+    "feral_bear.mdx": {
+        "name": "Feral Bear"
+    },
+    "feral_cow.mdx": {
+        "name": "Feral Cow"
+    },
+    "feral_enderman.mdx": {
+        "name": "Feral Enderman"
+    },
+    "feral_horse.mdx": {
+        "name": "Feral Horse"
+    },
+    "feral_human.mdx": {
+        "name": "Feral Human"
+    },
+    "feral_pig.mdx": {
+        "name": "Feral Pig"
+    },
+    "feral_sheep.mdx": {
+        "name": "Feral Sheep"
+    },
+    "feral_villager.mdx": {
+        "name": "Feral Villager"
+    },
+    "feral_wolf.mdx": {
+        "name": "Feral Wolf"
+    }
+}
+

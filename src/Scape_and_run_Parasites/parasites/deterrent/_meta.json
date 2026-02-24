@@ -1,0 +1,21 @@
+﻿{
+    "index.mdx": {
+        "name": "Deterrent parasites"
+    },
+    "dispatcher_tentacle.mdx": {
+        "name": "Dispatcher Tentacle"
+    },
+    "kyphosis.mdx": {
+        "name": "Kyphosis"
+    },
+    "seizer.mdx": {
+        "name": "Seizer"
+    },
+    "sentry.mdx": {
+        "name": "Sentry"
+    },
+    "worm.mdx": {
+        "name": "Worm"
+    }
+}
+

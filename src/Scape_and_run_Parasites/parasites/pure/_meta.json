@@ -1,0 +1,30 @@
+﻿{
+    "index.mdx": {
+        "name": "Pure parasites"
+    },
+    "grunt.mdx": {
+        "name": "Grunt"
+    },
+    "light_bomber.mdx": {
+        "name": "Light Bomber"
+    },
+    "marauder.mdx": {
+        "name": "Marauder"
+    },
+    "monarch.mdx": {
+        "name": "Monarch"
+    },
+    "overseer.mdx": {
+        "name": "Overseer"
+    },
+    "vigilante.mdx": {
+        "name": "Vigilante"
+    },
+    "warden.mdx": {
+        "name": "Warden"
+    },
+    "seeker.mdx": {
+        "name": "Seeker"
+    }
+}
+

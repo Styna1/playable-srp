@@ -1,0 +1,45 @@
+﻿{
+    "index.mdx": {
+        "name": "Nexus parasites"
+    },
+    "stage_i_beckon.mdx": {
+        "name": "Stage I Beckon"
+    },
+    "stage_ii_beckon.mdx": {
+        "name": "Stage Ii Beckon"
+    },
+    "stage_iii_beckon.mdx": {
+        "name": "Stage Iii Beckon"
+    },
+    "stage_iv_beeckon.mdx": {
+        "name": "Stage Iv Beeckon"
+    },
+    "stage_i_dispatcher.mdx": {
+        "name": "Stage I Dispatcher"
+    },
+    "stage_ii_dispatcher.mdx": {
+        "name": "Stage Ii Dispatcher"
+    },
+    "stage_iii_dispatcher.mdx": {
+        "name": "Stage Iii Dispatcher"
+    },
+    "stage_iv_dispatcher.mdx": {
+        "name": "Stage Iv Dispatcher"
+    },
+    "stage_i_rooter.mdx": {
+        "name": "Stage I Rooter"
+    },
+    "stage_ii_rooter.mdx": {
+        "name": "Stage Ii Rooter"
+    },
+    "stage_iii_rooter.mdx": {
+        "name": "Stage Iii Rooter"
+    },
+    "stage_iv_rooter.mdx": {
+        "name": "Stage Iv Rooter"
+    },
+    "rootmass_cyst.mdx": {
+        "name": "Rootmass Cyst"
+    }
+}
+

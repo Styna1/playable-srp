@@ -1,5 +1,8 @@
 {
     "systems": {
         "name": "Systems"
+    },
+    "parasites": {
+        "name": "Parasites"
     }
 }

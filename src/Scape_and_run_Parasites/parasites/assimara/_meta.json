@@ -1,0 +1,24 @@
+﻿{
+    "index.mdx": {
+        "name": "Assimara parasites"
+    },
+    "assimara_bear.mdx": {
+        "name": "Assimara Bear"
+    },
+    "assimara_cow.mdx": {
+        "name": "Assimara Cow"
+    },
+    "assimara_enderman.mdx": {
+        "name": "Assimara Enderman"
+    },
+    "assimara_human.mdx": {
+        "name": "Assimara Human"
+    },
+    "assimara_sheep.mdx": {
+        "name": "Assimara Sheep"
+    },
+    "assimara_villager.mdx": {
+        "name": "Assimara Villager"
+    }
+}
+
