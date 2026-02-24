@@ -5,10 +5,39 @@ hide_meta: true
 
 ## Mechanics
 
-The Parasite in question must receive damage from a certain Damage Source that in order to adapt to it. Each item and entity count as an individual Damage Type. When a parasite is hit by a Damage Source it will gain one Adaptation Point for that Damage Type. Each Adaptation Point will reduce oncoming damage by a certain percentage, depending on that parasite's tier. Each tier also has its own Adaptation Point Cap and Adaptation Chance. Setting a parasite on fire adds an additional chance to fail adaptation depending on the tier. Parasites can adapt to ALL Damage Sources EXCEPT suffocation and being in the void. ~~Parasites can adapt to Fire Damage, but still receive its negative effects even if immune to its damage~~.
+The Parasite in question must receive damage from a certain Damage Source that in order to adapt to it. Each item and entity count as an individual Damage Type. 
+When a parasite is hit by a Damage Source it will gain one Adaptation Point for that Damage Type. Each Adaptation Point will reduce oncoming damage by a certain percentage, 
+depending on that parasite's tier. Each tier also has its own Adaptation Point Cap and Adaptation Chance. 
+Setting a parasite on fire adds an additional chance to fail adaptation depending on the tier. Parasites can adapt to **ALL** Damage Sources **EXCEPT** suffocation and being in the void. 
+~~Parasites can adapt to Fire Damage, but still receive its negative effects even if immune to its damage~~.
 
 <u>**Logic**</u>
     * If the damage is coming from a Player, the Parasite will adapt to the Item that dealt the damage.
     * If the damage is coming from a Living Entity, the Parasite will adapt to the Entity that dealt the damage.
     * If the damage is not coming from a Living Entity, the Parasite will adapt to the Damage Type of the damage.
 
+<u>**Detecting Adaptation**</u>
+
+Adaptation can be detected each time a Parasite is damaged. Instead of the normal red flash, Parasites will flash different colors, depending on the state of their Adaptation.
+
+    * Green: The Parasite is still vulnerable to a Damage Source.
+    * Purple: The Parasite has, to the best of their ability, fully adapted to a Damage Source.
+
+## Neutralization
+
+Players are able to slow, or even stop, a Parasite from adapting using these three methods:
+
+    * **Cutting a Tendril**. Doing so will reset their Adaptations and inflict the Bleeding and Rage Effects to the Parasite for a small period of time. Tendrils hitboxes can be found by pressing F3+B.
+        * As of now, only Adapted Reekers, Summoners, Longarms, Bolsters, Vigilantes, and Marauders have Tendrils.
+
+    * Using the Immalleable Potion. By inflicting the Immalleable Effect, Parasites will become unable to adapt to any Damage Type, effectively neutralizing Adaptation for the duration of the effect. Currently, this Potion can only be obtained in Creative or through cheats.
+    * Burning the Parasite. A Parasite while being on fire has a chance to fail to adapt to any Damage Source for a span of 10 ticks, or half a second. Exact chances can be seen below.
+
+## Adaptation Values
+
+Every type of Parasite has a limit to the amount of Damage Types they can adapt to.
+
+Each Tier of Parasite, along with some outliers, has its own Adaptation Values, <u>*which are shown [here](https://scape-and-run-parasites.fandom.com/wiki/Adaptation_System#adaptation_values)*</u>. Inborn Parasites, Crude Parasites, Feral Parasites, Hijacked Mobs and Assimilated Mobs are not able to adapt.
+
+<u>Point Reduction Value</u> and <u>Point Reduction Cap</u> are used to calculate how many times a Parasite can learn a Damage Source before reaching its maximum resistance 
+(this does not always mean it will be resistant to the Damage Type). For example, Primitive Parasites can become up to <u>60% immune</u> to any damage source. 
