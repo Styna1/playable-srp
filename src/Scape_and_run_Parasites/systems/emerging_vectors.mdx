@@ -1,0 +1,25 @@
+---
+title: Emerging Infection Vectors
+hide-meta: true
+---
+
+## Overview
+
+Emerging Infection Vectors is a System which as the name suggests, handles the appearance of the Parasites infestation in the world. 
+If the Meteor Infestation is enabled in the configuration at world creation, the first Emerging Infection Vector will spawn at the Meteor impact coordinates, 
+otherwise it has a chance to be created every day in random coordinates, with an added chance of spawning if there are no other Vectors in the world.
+
+Parasites can only spawn if they're within the area of an Infection Vector, unless they are disabled. Each Infection Vector has health points, 
+which increase if a parasite kills a mob or gets assimilated. Whenever either one of those happen, the total health the mob had is added to the Vector's own health, 
+although the radius and health of the Infestation Vectors are able to increase independently each day or roughly 24000 ticks. 
+
+The Infection Vectors passively and continuously generate points for the dimension they reside regardless of being loaded or not, 
+taking into account their radius and health values.
+
+
+To destroy an Infection Vector its health must reach 0, which can be attempted by killing parasites. Additionally, 
+the Reinforcement System only works within the radius of Vectors. 
+
+## Emerging Infection Vector Outbreaks
+
+Coming soon.
