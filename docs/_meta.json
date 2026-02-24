@@ -1,6 +1,5 @@
 {
-    "install.mdx": {
-        "name": "Install",
-        "icon": "BookMarked"
+    "phases.mdx": {
+        "name": "Phases"
     }
 }
