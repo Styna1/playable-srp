@@ -1,6 +1,9 @@
 {
-    "phases.mdx": {
-        "name": "Phases"
+    "install.mdx": {
+        "name": "Installation"
+    },
+    "Information": {
+        "name": "information"
     },
     "Scape_and_run_Parasites": {
         "name": "Scape & Run: Parasites"
